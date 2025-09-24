@@ -1,0 +1,93 @@
+
+<body> 
+    <header role="banner"> 
+        <h1>Світ квітів</h1> 
+        <p>Довідник про найкрасивіші квіти світу</p> 
+    </header> 
+     
+    <nav role="navigation" aria-label="Головне меню"> 
+        <ul> 
+            <li><a href="#popular">Популярні квіти</a></li> 
+            <li><a href="#care">Догляд за квітами</a></li> 
+            <li><a href="#gallery">Галерея</a></li> 
+            <li><a href="#contact">Контакти</a></li> 
+        </ul> 
+    </nav> 
+     
+    <main role="main"> 
+        <section id="popular" aria-labelledby="popular-heading"> 
+            <h2 id="popular-heading">Популярні види квітів</h2> 
+             
+            <article> 
+                <h3>Троянди</h3> 
+                <p>Троянди - одні з найпопулярніших квітів у світі, відомі своєю красою та ароматом.</p> 
+                <a href="https://www.britannica.com/plant/rose-plant" aria-label="Дізнатися більше про троянди">Докладніше про троянди</a> 
+            </article> 
+             
+            <article> 
+                <h3>Тюльпани</h3> 
+                <p>Тюльпани символізують весну та нове життя, особливо популярні в Голландії.</p> 
+                <a href="https://www.britannica.com/plant/tulip" aria-label="Дізнатися більше про тюльпани">Докладніше про тюльпани</a> 
+            </article> 
+             
+            <article> 
+                <h3>Соняшники</h3> 
+                <p>Соняшники вражають своїм розміром та яскравим жовтим кольором.</p> 
+                <a href="https://www.britannica.com/plant/sunflower-plant" aria-label="Дізнатися більше про соняшники">Докладніше про соняшники</a> 
+            </article> 
+        </section> 
+         
+        <section id="care" aria-labelledby="care-heading"> 
+            <h2 id="care-heading">Поради з догляду за квітами</h2> 
+             
+            <table> 
+                <caption>Рекомендації з поливу квітів</caption> 
+                <thead> 
+                    <tr> 
+                        <th scope="col">Вид квітів</th> 
+                        <th scope="col">Частота поливу</th> 
+                        <th scope="col">Освітлення</th> 
+                    </tr> 
+                </thead> 
+                <tbody> 
+                    <tr> 
+                        <th scope="row">Троянди</th> 
+                        <td>2-3 рази на тиждень</td> 
+                        <td>Яскраве сонячне світло</td> 
+                    </tr> 
+                    <tr> 
+                        <th scope="row">Тюльпани</th> 
+                        <td>1-2 рази на тиждень</td> 
+                        <td>Помірне освітлення</td> 
+                    </tr> 
+                    <tr> 
+                        <th scope="row">Соняшники</th> 
+                        <td>Щодня</td> 
+                        <td>Пряме сонячне світло</td> 
+                    </tr> 
+                </tbody> 
+            </table> 
+        </section>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Зв'яжіться з нами</h2>
+            <form aria-labelledby="contact-heading">
+                <fieldset>
+                    <legend>Форма зворотнього зв'язку</legend>
+                    <div>
+                        <label form="name">Ваше ім'я</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div>
+                        <label form="email">Ваше пошта</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    <div>
+                        <label form="message">Ваше повідомлення</label>
+                        <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit">Надіслати повідомлення</button>
+                </fieldset>
+            </form>
+        </section>
+        </main>
+</body>
