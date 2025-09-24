@@ -1,4 +1,3 @@
-
 <body> 
     <header role="banner"> 
         <h1>Світ квітів</h1> 
@@ -70,24 +69,28 @@
         </section>
         <section id="contact" aria-labelledby="contact-heading">
             <h2 id="contact-heading">Зв'яжіться з нами</h2>
-            <form aria-labelledby="contact-heading">
+            <form aria-labelledby="contact-heading" id="myForm">
                 <fieldset>
                     <legend>Форма зворотнього зв'язку</legend>
                     <div>
-                        <label form="name">Ваше ім'я</label>
+                        <label for="name">Ваше ім'я</label>
                         <input type="text" id="name" name="name" required aria-required="true">
                     </div><br>
                     <div>
-                        <label form="email">Ваше пошта</label>
+                        <label for="email">Ваше пошта</label>
                         <input type="email" id="email" name="email" required aria-required="true">
                     </div><br>
                     <div>
-                        <label form="message">Ваше повідомлення</label>
+                        <label for="message">Ваше повідомлення</label>
                         <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
                     </div><br>
                     <button type="submit">Надіслати повідомлення</button>
                 </fieldset>
             </form>
+            <div id="notification" style="display: none; position: fixed; top: 20px; right: 20px; background: #4CAF50; color: white; padding: 15px; border-radius: 5px; z-index: 1000;">
+                ✅ Форма надіслана успішно! Скоро з вами зв'яжуться.
+            </div>
         </section>
         </main>
+        <script src="script.js" defer></script>
 </body>
