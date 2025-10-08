@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html> 
 <html lang="uk"> 
 <head> 
@@ -76,6 +77,9 @@
         </section> 
          
         <section id="gallery" aria-labelledby="gallery-heading"> 
+=======
+                 <section id="gallery" aria-labelledby="gallery-heading"> 
+>>>>>>> 15ecf026016388b8d93e66b38a2d87e56044435b
             <h2 id="gallery-heading">Галерея квітів</h2> 
              
             <figure> 
@@ -93,8 +97,8 @@
             </figure>
         </section>
         <section id="video-section">
-            <h2>Відео про вирощування абрикосів вдома</h2>
-            <video controls aria-label="Відеоінструкція з вирощування абрикосів вдома">
+            <h2>Відео про вирощування абрикосів (вдома)</h2>
+            <video controls aria-label="Відеоінструкція з вирощування абрикосів (вдома)">
                 <source src="c:\Users\Sasha\Desktop\index.html\01997bc8-64c6-718d-aa47-87501cb13526.mp4" type="video/mp4">
                 Ваш браузер не підтримує відео елемент.
             </video>
@@ -106,27 +110,6 @@
                 Ваш браузер не підтримує аудіо елемент.
             </audio>
         </section>
-<section id="contact" aria-labelledby="contact-heading">
-    <h2 id="contact-heading">Зв'яжіться з нами</h2>
-    <form aria-labelledby="contact-heading">
-        <fieldset>
-            <legend>Форма зворотного зв'язку</legend>
-            <div>
-                <label for="name">Ваше ім'я:</label>
-                <input type="text" id="name" name="name" required aria-required="true">
-            </div>
-            <div>
-                <label for="email">Ваш email:</label>
-                <input type="email" id="email" name="email" required aria-required="true">
-            </div>
-            <div>
-                <label for="message">Ваше повідомлення:</label>
-                <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
-            </div>
-            <button type="submit">Надіслати повідомлення</button>
-        </fieldset>
-    </form>
-</section>
 </main>
 <footer role="contentinfo">
     <p>© 2024 Світ квітів. Усі права захищені.</p>
